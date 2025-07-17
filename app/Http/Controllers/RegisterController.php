@@ -6,7 +6,7 @@ use App\Models\User;
 use Illuminate\Validation\Rule;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-
+/* 
 class RegisterController extends Controller
 {
     public function create()
@@ -30,5 +30,23 @@ class RegisterController extends Controller
         $user = User::create($attributes);
         Auth::login($user); 
         return redirect('/dashboard');
+    }
+}
+ */
+
+class RegisterController extends Controller
+{
+    public function create()
+    {
+        // Redirige al login o muestra error 403/404
+        return redirect('/login')->with('error', 'El registro de usuarios está deshabilitado');
+        // O alternativamente:
+        // abort(403, 'El registro de usuarios está deshabilitado');
+    }
+
+    public function store()
+    {
+        // Bloquea cualquier intento de registro por POST
+        abort(403, 'El registro de usuarios está deshabilitado');
     }
 }
