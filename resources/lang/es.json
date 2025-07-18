@@ -34,5 +34,7 @@
     "Pages": "Páginas",
     "Home": "Inicio",
     "Sign Out": "Cerrar Sesión",
-    "Type here...": "Escribe aquí..."
+    "Type here...": "Escribe aquí...",
+    "user-management": "Gestión de Usuarios",
+    "user-profile": "Perfil de Usuario"
 }
