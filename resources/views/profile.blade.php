@@ -7,10 +7,10 @@
       <div class="page-header min-height-300 border-radius-xl mt-4" style="background-image: url('../assets/img/curved-images/curved0.jpg'); background-position-y: 50%;">
         <span class="mask bg-gradient-primary opacity-6"></span>
         <div class="z-index-0 row">
-            <div class="col-md-3  mx-auto text-center">
+            <div class="col-md-3  my-auto text-center">
                 <img class="w-60 border-radius-xl" src="https://images.seeklogo.com/logo-png/45/1/secretaria-de-salud-honduras-logo-png_seeklogo-451527.png" alt="">
             </div>
-            <div class="col-md-9">
+            <div class="col-md-9 my-auto d-none d-sm-block ">
                 <h1 class=" " style="color: white ">Programa de Medicamentos a Domicilio</h1>
             </div>
         </div>
@@ -33,7 +33,7 @@
               </p> --}}
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 my-sm-auto ms-sm-auto me-sm-0 mx-auto mt-3">
+          {{-- <div class="col-lg-4 col-md-6 my-sm-auto ms-sm-auto me-sm-0 mx-auto mt-3">
             <div class="nav-wrapper position-relative end-0">
               <ul class="nav nav-pills nav-fill p-1 bg-transparent" role="tablist">
                 {{-- <li class="nav-item">
@@ -94,10 +94,10 @@
                     </svg>
                     <span class="ms-1">Settings</span>
                   </a>
-                </li> --}}
+                </li>
               </ul>
             </div>
-          </div>
+          </div> --}}
         </div>
       </div>
     </div>
