@@ -4,8 +4,17 @@
 @section('content')
   <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">
     <div class="container-fluid">
-      <div class="page-header min-height-300 border-radius-xl mt-4 shadow" style="background-image: url('../assets/img/curved-images/curved0.jpg'); background-position-y: 50%;">
-        <span class="mask bg-gradient-faded-dark-vertical opacity-6"></span>
+      <div class="page-header min-height-300 border-radius-xl mt-4" style="background-image: url('../assets/img/curved-images/curved0.jpg'); background-position-y: 50%;">
+        <span class="mask bg-gradient-primary opacity-6"></span>
+        <div class="z-index-0 row">
+            <div class="col-md-3  mx-auto text-center">
+                <img class="w-60 border-radius-xl" src="https://images.seeklogo.com/logo-png/45/1/secretaria-de-salud-honduras-logo-png_seeklogo-451527.png" alt="">
+            </div>
+            <div class="col-md-9">
+                <h1 class=" " style="color: white ">Programa de Medicamentos a Domicilio</h1>
+            </div>
+        </div>
+
       </div>
       <div class="card card-body blur shadow-blur mx-4 mt-n6 overflow-hidden">
         <div class="row gx-4">
